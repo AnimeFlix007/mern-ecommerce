@@ -1,8 +1,8 @@
 import ShoopingImage from "src/assets/undraw_online_shopping_re_k1sv.svg"
 
-export default function LoginPage() {
+export default function RegisterPage() {
   return (
-    <section className="bg-gray-50 h-screen w-screen flex items-center justify-center overflow-hidden">
+    <section className="bg-gray-50 h-screen w-screen flex  items-center justify-center">
       <div className="bg-gray-100 flex rounded-2xl shadow-lg md:w-full w-5/6 h-5/6 md:h-full p-5 items-center">
         <div className="md:w-1/2 w-full px-8 md:px-16">
           <h2 className="font-bold text-2xl text-[#002D74]">Welcome Back!</h2>
@@ -37,7 +37,7 @@ export default function LoginPage() {
               </svg>
             </div>
             <button className="bg-[#0059E7] rounded-xl text-white py-2 hover:scale-105 duration-300">
-              Login
+              Register
             </button>
           </form>
 
@@ -71,7 +71,7 @@ export default function LoginPage() {
                 d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"
               />
             </svg>
-            Login with Google
+            Continue with Google
           </button>
 
           <div className="mt-5 text-xs border-b border-[#002D74] py-4 text-[#002D74]">
@@ -79,9 +79,9 @@ export default function LoginPage() {
           </div>
 
           <div className="mt-3 text-xs flex justify-between items-center text-[#002D74]">
-            <p>Don't have an account?</p>
+            <p>Already a member?</p>
             <button className="py-2 px-5 bg-white border rounded-xl hover:scale-110 duration-300">
-              Register
+              Login
             </button>
           </div>
         </div>
