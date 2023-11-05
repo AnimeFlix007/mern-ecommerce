@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ShoopingImage from "src/assets/undraw_shopping_app_flsj.svg"
+import ShoopingImage from "src/assets/ShoppingApp.svg"
 import GoogleButton from "src/components/auth/GoogleButton";
 
 export default function RegisterPage() {
