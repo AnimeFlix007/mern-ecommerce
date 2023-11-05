@@ -1,10 +1,8 @@
-import './App.css'
-import LoginPage from './pages/auth/LoginPage'
+import "./App.css";
+import Router from "./router/Router";
 
 function App() {
-  return (
-    <LoginPage />
-  )
+  return <Router />;
 }
 
-export default App
+export default App;

@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom";
 import ShoopingImage from "src/assets/undraw_online_shopping_re_k1sv.svg";
 import GoogleButton from "src/components/auth/GoogleButton";
 
 export default function LoginPage() {
   return (
     <section className="bg-gray-50 h-screen w-screen flex items-center justify-center overflow-hidden">
-      <div className="bg-gray-100 flex rounded-2xl shadow-lg md:w-full w-5/6 h-5/6 md:h-full md:file:p-5 items-center">
+      <div className="bg-gray-100 flex rounded-2xl shadow-lg md:w-full w-5/6 h-5/6 md:h-full md:p-5 items-center">
         <div className="md:w-1/2 w-full px-8 md:px-16">
           <h2 className="font-bold text-2xl text-[#002D74]">Welcome Back!</h2>
           <p className="text-xs mt-4 text-[#002D74]">
@@ -56,9 +57,11 @@ export default function LoginPage() {
 
           <div className="mt-3 text-xs flex justify-between items-center text-[#002D74]">
             <p>Don't have an account?</p>
-            <button className="py-2 px-5 bg-white border rounded-xl hover:scale-110 duration-300">
-              Register
-            </button>
+            <Link to={"/register"}>
+              <button className="py-2 px-5 bg-white border rounded-xl hover:scale-110 duration-300">
+                Register
+              </button>
+            </Link>
           </div>
         </div>
 
