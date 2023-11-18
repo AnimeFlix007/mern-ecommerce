@@ -78,7 +78,7 @@ export default function Header() {
           <a href="#" className="header-logo">
             <img
               src="./assets/images/logo/logo.svg"
-              alt="Anon's logo"
+              alt="Jio-mart"
               width="120"
               height="36"
             />
