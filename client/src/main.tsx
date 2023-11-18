@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
 import "./index.css";
+import "src/css/prefix.css"
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { theme } from "./theme/MuiTheme.tsx";
 import { ToastContainer } from "react-toastify";
