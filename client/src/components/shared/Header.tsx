@@ -19,6 +19,7 @@ import ElectronicsBanner1 from "src/assets/electronics-banner-1.jpg";
 import ElectronicsBanner2 from "src/assets/electronics-banner-2.jpg";
 import WomenBanner from "src/assets/womens-banner.jpg";
 import MensBanner from "src/assets/mens-banner.jpg";
+import LogoIcon from "src/assets/logo/LogoImg.png"
 
 export default function Header() {
   return (
@@ -77,7 +78,7 @@ export default function Header() {
         <div className="container">
           <a href="#" className="header-logo">
             <img
-              src="./assets/images/logo/logo.svg"
+              src={LogoIcon}
               alt="Jio-mart"
               width="120"
               height="36"
